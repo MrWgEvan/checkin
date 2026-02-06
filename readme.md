@@ -34,3 +34,7 @@ GitHub Actions 实现 [GLaDOS][glados] 自动签到
 [crontab]: https://crontab.guru/
 [pushplus]: https://www.pushplus.plus/
 [wxpusher]: https://wxpusher.zjiecode.com/
+
+
+
+打开 GitHub 仓库设置 Settings → Secrets and variables → Actions → New repository secret, 按照提示填写完成后保存 Name: GLADOS Secret: 前面获取的 GLaDOS Cookie 值 打开 GitHub 仓库 Actions 标签页, 点击 I understand my workflows, go ahead and enable them
